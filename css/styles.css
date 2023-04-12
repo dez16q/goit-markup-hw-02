@@ -131,9 +131,7 @@ address {
 .comand {
   background-color: var(--light-accent);
 }
-.comand {
-  background-color: var(--primary-bg-color);
-}
+
 
 .footer-element {
   background-color: var(--dark-accent);
@@ -160,7 +158,4 @@ address {
   background-color: var(--hover-focus-color);
   cursor: pointer;
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
+
