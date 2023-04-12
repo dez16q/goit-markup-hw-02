@@ -131,7 +131,9 @@ address {
 .comand {
   background-color: var(--light-accent);
 }
-
+.comand-list {
+  background-color: var(--primary-bg-color);
+}
 
 .footer-element {
   background-color: var(--dark-accent);
