@@ -1,36 +1,166 @@
+:root {
+  --primary-bg-color: #ffffff;
 
-/* general styles */
+  --main-text-color: #434455;
 
-body{font-family: 'Roboto', sans-serif;;
-    
+  --dark-accent: #2e2f42;
+
+  --light-accent: #f4f4fd;
+
+  --accent-color: #4d5ae5;
+
+  --hover-focus-color: #404bbf;
 }
 
-font-family: 'Raleway', sans-serif
 
-.list{
-    list-style: none;
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--primary-bg-color);
+  color: var(--main-text-color);
 }
 
-.header-nav {
-    background-color: gray;
+
+.list {
+  list-style-type: none;
+  font-style: normal;
 }
 
-.link{text-decoration: none;
-
+.link {
+  text-decoration: none;
 }
-.header-nav-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
+
+.web-logo {
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.studio-logo {
+  color: var(--dark-accent);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: var(--dark-accent);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--hover-focus-color);
+}
+
+address {
+  font-style: normal;
+}
+.contact {
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--hover-focus-color);
+}
+
+.hero {
+  background-color: var(--dark-accent);
+}
+.hero-title {
+  color: var(--primary-bg-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.button-hero {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--hover-focus-color);
+  cursor: pointer;
+}
+
+.title-features {
+  color: var(--dark-accent);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text {
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-transform: capitalize;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--title-color);
-  }
+  color: var(--dark-accent);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.comand {
+  background-color: var(--light-accent);
+}
+.comand {
+  background-color: var(--primary-bg-color);
+}
+
+.footer-element {
+  background-color: var(--dark-accent);
+  color: var(--light-accent);
+  text-transform: uppercase;
+}
+.footer-logo {
+  color: var(--light-accent);
+  text-transform: uppercase;
+}
+
+.button-portfolio {
+  color: var(--accent-color);
+  background-color: var(--light-accent);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--hover-focus-color);
+  cursor: pointer;
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
