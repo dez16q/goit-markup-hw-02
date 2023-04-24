@@ -40,7 +40,7 @@ body {
 }
 
 .nav-link {
-  color:   color: var(--primary-text-color)x;
+  color: color: var(--primary-text-color)x;
   font-family: 'Roboto', sans-serif ;
   font-weight: 500;
   font-size: 16px;
@@ -143,6 +143,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
