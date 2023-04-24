@@ -1,7 +1,13 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --primary-text-color: #434455;
+  --secondly-text-color: #2E2F42;
+  --accent-color: #404BBF;
+}
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
-  color: #434455;
+  color: var(--primary-text-color);
 }
 
 
@@ -81,11 +87,12 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
+  
 }
 .button-hero:hover,
 .button-hero:focus {
   background-color: #404bbf;
-  cursor: pointer;
 }
 
 .title-features {
@@ -141,6 +148,5 @@ address {
 .button-portfolio:focus {
   color: #ffffff;
   background-color: #404bbf;
-  cursor: pointer;
 }
 
